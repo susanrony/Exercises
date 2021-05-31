@@ -1,7 +1,10 @@
 ## Titanic Dataset
 
+{{ site.data.titanic-dataset.csv | inspect }}
+
+
 <table>
-  {% for row in site.titanic-dataset %}
+  {% for row in site.data.titanic-dataset.csv %}
     {% if forloop.first %}
     <tr>
       {% for pair in row %}
