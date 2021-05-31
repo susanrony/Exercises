@@ -1,5 +1,7 @@
 ## Titanic Dataset
 
+{% include /titanic.csv %}
+
 {{ site.data.titanic.csv | inspect }}
 
 | Survived | Pclass | Name | Sex | Age | Siblings/Spouses Aboard | Parents/Children Aboard | Fare |
